@@ -17,6 +17,8 @@ body{
 .cartao_conteudo{
     text-align: center;
     height:100%;
+    transform-style: preserve-3d
+    transition: transform 300ms ease-in-out
 }
 .cartao_conteudo h3 {
     background-color: rgb(79, 164, 190);
@@ -28,7 +30,7 @@ body{
     font-size: 1vw;
 }
 
-.cartao__conteudo p {
+.cartao_conteudo p {
     margin-top: 1rem;
     padding: 2rem;
 }
@@ -47,4 +49,20 @@ footer p {
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
+}
+/* ROTACIONAR O CARTÃO QUANDO O MOUSE PASSAR EM CIMA */
+
+.cartao:hover .cartao_conteudo{
+    transform: rotateY(180deg);
+}
+
+.resposta{
+    transform: rotateY(180deg);
+}
+
+.pergunta, .resposta{
+    backface-visibility: hidden;
+    position:absolute;
+    height: 100%
+    width: 100%;
 }
