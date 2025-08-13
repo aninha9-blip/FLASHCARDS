@@ -43,3 +43,18 @@ criaCartao (
     "O que são testes em programação?",
     "Testes são processos para verificar se o código funciona corretamente, garantindo que o programa entregue os resultados esperados"
 )
+criaCartao(
+    "programação",
+    "O que são estruturas de dados?",
+    "Formas de organizar e armazenar dados em um computador para facilitar o acesso e manipulação"
+)
+criaCartao(
+    "programação",
+    "O que é depuração?",
+   "O processo de encontrar e corrigir erros em um programa"
+)
+criaCartao(
+    "programação",
+    "Quais são os princípios da POO?",
+    "Abstração, encapsulamento, herança e polimorfismo, que permitem criar sistemas complexos de forma modular e organizada"
+)
